@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+a{
+    color: #ffffff;
+}
+
+body{
+    background-color: #CDDEFF;
+}
+
+h1{
+    color: #FF5959;
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem; 
+    margin: 50px auto 0 auto;
+}
+
+/* 16px = 100% = 1em ou rem  */
+
+h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2rem;
+    color: #FF5959;
+    font-weight:normal;
+}
+
+h3{
+    color: #FF5959;
+    font-family: 'Montserrat',sans-serif;
+    text-align: left;
+}
+
+hr{
+    border-style: none;
+    border-top-style:dotted;
+    border-width: 4.5px;
+    width: 5%;
+    margin: 80px auto 80px auto;
+    color: #7a7e7eb8;
+}
+p{
+    color:#40514E;
+}
+
+.avatar-image{
+    width: 30%;
+}
+
+.cont{
+    text-align: center;
+}
+
+.img1{
+    width: 30%;
+    float:left;
+    margin-right: 30px;
+}
+
+.img2{
+    width: 30%;
+    float:right;
+    margin-left: 30px;
+}
+
+.p1{
+    text-align: left;
+    line-height: 2;
+}
+
+.meio{
+    background-color: #CDDEFF;
+}
+
+.profile{
+    width: 50%;
+    margin: 50px auto 80px auto;
+    line-height: 2;
+}
+
+.superior{
+    background-color: #676FA3;
+    padding-top: 100px;
+}
+
+#n1{
+    position: absolute;
+    right: 0rem;
+    top: 50px;
+}
+
+#n2{
+    position: absolute;
+    left: 0rem;
+    bottom: 300px;
+}
+
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+
+.skills{
+    margin-top: 100px;
+}
+
+.contact-me{
+    width: 50%;
+    margin: 30px auto 100px auto;
+    line-height: 2;
+}
+
+.btn {
+    background: #FF5959;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #cc2525;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .inferior{
+    text-decoration: none;
+    height: 150px;
+    padding: 50px;
+    background-color: #676FA3;
+    line-height: 3;
+    color: white;
+  }
+
+  .footer-link{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+  }
+
+  .footer-link:hover{
+    color: #FF5959;
+    transition: 0.6s;
+  }
+
+  

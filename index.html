@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Soares Silva</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="icon/output-onlinepngtools.png">
+    <script src="https://kit.fontawesome.com/cb9eb9150b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="superior">
+        <img id="n1" class="nuvemcima" src="images/cloud.png" alt="Imagem de nuvem">
+        <h1>Eu sou o Juan</h1>
+        <h2>Um Desenvolvedor Full-Stack.</h2>
+        <img id="n2" class="nuvembaixo" src="images/cloud.png" alt="Imagem de nuvem">
+        <img src="images/mountain.png" alt="Imagem de montanha">
+  </div>
+  <div class="meio">
+      <div class="profile">
+      <img class="avatar-image" src="icon/output-onlinepngtools.png" alt="icon-juan">
+      <h2>printf("Hello World");</h2>
+      <p>Me chamo Juan Soares Silva, sou um estudante e apaixonado em tecnologia desde de que me entendo por gente, estudo o desenvolvimento web e, muito em breve, o desenvolvimento mobile com Flutter.</p>
+      </div>
+      <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+            <div class="skill-row">
+              <img class="img1" src="images/computer-modified (1).png"/>
+              <h3>Web Development</h3>
+              <p class="p1">Possuo amplo conhecimento do Web Development, bastante experiência em HTML, CSS e JS, conhecimento básico em PHP e experiência em banco de dados, como o MySQL.</p>
+            </div>
+            <div class="skill-row">
+              <img class="img2" src="images/output-onlinepngtools.png"/>
+              <h3>Mobile Development</h3>
+              <p class="p1">Vou começar o Mobile Development ainda esse ano, com Flutter, tanto para IOS quanto Android.</p>
+            </div>
+        </div>
+              <hr>
+            <div class="contact-me">
+              <h2>Entre em contato comigo</h2>
+              <img src="https://img.icons8.com/ios-filled/50/000000/safety-collection-place.png"/>
+              <h3 class="cont">Não é só com bugs que se cria um bom Dev...</h3>
+              <p>Estou disponível para novos projetos, remunerados ou não, em que eu possa colaborar e também aprimorar os meus conhecimentos e fazer novos networkings.</p>
+              <br>
+              <a class="btn" href="mailto:juan07silva@gmail.com">Contate-me</a>
+            </div>
+  </div>
+          
+          
+        <div class="inferior">
+           <a class="footer-link" href="https://www.linkedin.com/in/juan-soares-silva/">Linkedin</a>
+           <a class="footer-link" href="#">Portfólio</a>
+           <p>© Juan Soares.</p>
+        </div>
+
+
+        <script type="text/javascript">
+          let n1 = document.getElementById("n1");
+          let n2 = document.getElementById("n2");
+
+          window.addEventListener('scroll',function(){
+            var value = window.scrollY;
+
+            n1.style.right = value * 0.5 + 'px';
+            n2.style.left = value * 0.5 + 'px';
+          })
+      </script>
+
+</body>
+</html>
