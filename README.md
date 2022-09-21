@@ -12,4 +12,4 @@ Este projeto prático foi feito com a intenção de colocar em prática os conhe
 
 Ele consiste em uma landing page de apresentação, destacando minhas habilidades de uma forma mais visual.
 
-![css apresentation](https://user-images.githubusercontent.com/70165034/191571224-45a4a406-58e0-45fd-b582-9d3b6e308d79.png)
+![css apresentation](https://user-images.githubusercontent.com/70165034/191571352-c538f413-2721-4199-8def-6add0e4ff88f.png)
